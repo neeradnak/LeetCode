@@ -1,0 +1,7 @@
+class Solution(object):
+    def singleNumber(self, nums):
+        k=[]
+        for i in nums:
+            if nums.count(i)==1:
+                k.append(i)
+        return k
